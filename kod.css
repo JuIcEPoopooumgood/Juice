@@ -1,8 +1,32 @@
-.interface .avatar1 {
+.interface .soc-icon svg-icon svg-icon--__discord__ {
     content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
     margin-top: -3%;
 }
 .interface .avatar {
     content: url(https://raw.githubusercontent.com/JuIcEPoopooumgood/Juice/refs/heads/main/image%20(1).webp) !important;
+    margin-top: -3%;
+}
+.interface .svg-icon--__discord__ {
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
+    margin-top: -3%;
+}
+.interface .soc-icon {
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
+    margin-top: -3%;
+}
+.interface .__discord__ {
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
+    margin-top: -3%;
+}
+.interface .soc-icon svg-icon svg-icon--__discord__ {
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
+    margin-top: -3%;
+}
+.interface .discord{
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
+    margin-top: -3%;
+}
+.interface .Settings {
+    content: url(https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png) !important;
     margin-top: -3%;
 }
