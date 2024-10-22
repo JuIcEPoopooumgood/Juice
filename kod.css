@@ -34,3 +34,13 @@
     content: url(https://raw.githubusercontent.com/JuIcEPoopooumgood/Juice/refs/heads/main/image%20(1).webp) !important;
     margin-top: -3%;
 }
+.right-interface .settings {
+    background: rgba(0, 0, 0, 0);
+    content: url(https://64.media.tumblr.com/c1a7790378171470e16b0d87db5b62a0/cb17e07cea9029ae-67/s75x75_c1/07add6352c72a1e4d5234f1e110002e1ec93c54f.webp);
+    border: none;
+    margin-left: 0px;
+    margin-top: +120px;
+    width: 20px !important;
+    transition: 0.5s;
+    z-index: 2;
+}
