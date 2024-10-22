@@ -1,4 +1,4 @@
-/* edited version of custom skin link from bkc, updated to fix muzzle img */
+/* edited version of custom skin link from bkc, updated Kod for a video https://m.youtube.com/watch?v=fio25pvgjio */
 const customSkinLink = "https://raw.githubusercontent.com/SheriffCarry/KirkaSkins/refs/heads/main/Characters/Kod-texture.png";
 
 /* DONT CHANGE ANYTHING BELOW */
@@ -17,3 +17,4 @@ Array.isArray = (...args) => {
 
     return oldIsArr(...args);
 }
+/* If u want a custom Bage video i will make that to! Just like the video */
