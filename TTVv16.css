@@ -3576,7 +3576,7 @@ body:has(#app > .game-interface) > .nav {
   content: "OPTIONS";
 }
 .head-right > .right-btn:nth-child(5):before {
-  content: "GET THE FUCK OUT";
+  content: "GET THE HELL OUT";
 }
 .head-right > .right-btn > .text > svg {
   display: none;
