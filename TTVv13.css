@@ -722,7 +722,7 @@ hr,
 
 .user-card .clan:before,
 .nickname:before {
-  content: "[";
+  content: "";
 }
 
 .user-card .clan:after,
