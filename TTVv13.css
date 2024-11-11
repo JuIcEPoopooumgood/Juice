@@ -4042,12 +4042,3 @@ body:has(#app > .game-interface) > .nav {
 	left: +150%;
 	top: +480px;
 }
-.user-card .clan:before,
-.clan-tag:before {
-  content: "[";
-}
-
-.user-card .clan:after,
-.clan-tag:after {
-  content: "]";
-}
