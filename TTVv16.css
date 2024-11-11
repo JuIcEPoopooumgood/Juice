@@ -463,7 +463,7 @@ hr,
 }
 
 .play-content-up > .private-btn::before {
-  content: "Make a FUCKING GAME";
+  content: "Make a Game";
   font-size: 2.5rem;
   text-transform: uppercase;
   transform: skew(-10deg);
