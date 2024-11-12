@@ -1,0 +1,1231 @@
+#play-btn > div.text:after {
+    content: 'just dont, u cant aim cuz';
+    visibility: visible;
+    font-size: 10px !important;
+}
+.player {
+	transform: rotateX(50deg);
+	scale: 0.7 }
+.avatar.avatar {
+ 	border-radius: 100px;
+  }
+  .interface .logo {
+   visibility: hidden;
+   content: "" !important;
+   content: url(https://cdn.discordapp.com/attachments/1001185818179809280/1013373858608332850/trasferimento.png);
+    margin-top: 20px;
+    max-width: 400px;
+    max-height: 100px;
+}
+.interface .logo:after {
+  visibility: visible;
+   content: "TEST" !important;	
+	  font-size: 30px;
+	  margin-left: 0px
+}
+.esc-interface .name .label {
+	color: #fff !important;
+}
+.clan-tag {
+ visibility: hidden
+	
+ font-size: 0px;
+}
+
+/* - Extra -------------------------------------------------------------------------------------------------------------------- */
+/* Crosshair */
+.crosshair-static {
+    display: flex !important;
+    visibility: visible !important;
+}
+/* Player Position */
+#team-section > div.player {
+    margin-right: 0px;
+    margin-top: 10px;
+}
+/* Hitmarker */
+.hit {
+    content: url ());
+}
+/* kill icon */
+.animate-cont {
+    content: url();
+    height: 50px;
+    text-align: bottom;
+    display: inline-block;
+}
+.player {scale: 0.7
+}
+@font-face {
+  font-family: "Times New Roman", Times, serif;
+}
+
+* {
+    font-family:;
+}
+
+/* Hide Logo */
+
+
+/*	Ad Removal */
+.ad-bottom,
+.ad-left {
+    visibility: hidden !important;
+}
+/*	CROSSHAIR */
+.crosshair-static {
+    visibility: visible !important;
+    position: absolute;
+    display:flex !important;
+}
+    
+/* Animation */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 6px #fff, 0 0 7px #fff, 0 0 8px #fff;
+    }
+}
+
+@-webkit-keyframes animate{
+    to {transform:translateY(30%);}
+}
+.nickname {
+	color: #fff;
+}
+  
+.pattern-bg,
+.bg-radial {
+    display: none;
+}
+
+.interface .background{
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsApAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAXEAEBAQEAAAAAAAAAAAAAAAAAAUER/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDEUAAAAAAAAURRFRUURUAAVUAABUAEBFRQBQQUFQioCgIAiggqCKIooAIAKCoIoAIgCioCKqAAqAKAAACCoIBoBFEBQAABRFFEAQCAAAAAIoiiiCgAAAAAAACAAoioAAIACgAgACidUUABFAAAABQAQAFEFRAAEAFABAABQQVQAAAIqCgAgAAIUVAAAAABFAFQioqKAQAFBAFAABDSCAAAQADFBFBFAMABcBFRQAAf/9k=) !important;
+    background-size: 100% !important;
+}
+
+.end-modal {
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg) repeat !important;
+    background-size: cover !important;
+}
+
+/* Loading Scene*/
+.loading-scene .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+}
+
+.loading-scene .name .label {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.loading-scene .players .level {
+    color: #fff;
+}
+
+/* Join URL Button (For client only) */
+.join-using-link {
+    background: #fff !important;
+    border-radius: 0 !important;
+    border: 4px solid #ffffff1c !important;
+}
+
+.join-using-link:active {
+    background: #fff !important;
+}
+
+#clientJoinButton {
+	background: #000 !important;
+    border-radius: 0 !important;
+    border: 4px solid #ffffff1c !important;
+}
+
+#clientJoinButton:active {
+    background: #fff !important;
+}
+
+/* Stream 
+.live-streams {
+    background: rgba(55, 55, 55, .61);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 95px;
+    top: 80px;
+    width: 300px !important;
+    height: 1200px;
+    border-left: 4px solid #ffffff1c;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.live-streams:before {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
+    position: fixed;
+    right: 320px;
+    top: 15px;
+    transition: 0.2s;
+}
+
+.live-streams:hover:before {
+    opacity: 0;
+}
+
+.live-streams:after {
+    content: "CSS by NizzQ#9235";
+    position: fixed;
+    top: 505px;
+    right: 115px;
+}
+
+.live-streams:hover {
+    left: -115px;
+}
+
+.live-streams .head {
+    display: none;
+}
+
+.live-streams .list {
+    width: 180px;
+    padding: 0 9px;
+    overflow: visible;
+}
+*/
+/* Login/Signup*/
+.auth-form {
+    margin-left: 0 !important;
+    background: none !important;
+    backdrop-filter: none;
+    border: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+    width: 2500px !important;
+    height: 118px !important;
+}
+
+.auth-form .btns button {
+    transform: none !important;
+    padding: 0px;
+	left: -450%;
+}
+
+.auth-user .loading {
+    background: rgba(55, 55, 55, .61);
+	backdrop-filter: blur(5px);
+	border: none;
+	border-bottom: 5px solid #ffffff1c !important;
+	border-radius: 0;
+	width: 2500px;
+    height: 118px !important;
+}
+
+.auth-user .loader-container {
+	margin-right: 95% !important;
+}
+
+.button {
+    -webkit-text-stroke: 0px !important;
+}
+
+.auth-form .btns button:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.auth-form button,
+.auth-form button .border-top,
+.auth-form button .border-bottom{
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.auth-form button .triangle {
+    display: none;
+}
+
+.auth-form .text {
+    font-size: 26px !important;
+}
+
+.auth-form button:hover {
+    color: #fff;
+}
+
+.button:after {
+    border: none;
+}
+
+/* Left Interface*/
+.left-interface .profile {
+    background: transparent;
+    width: 2500px;
+    height: 14px;
+    margin-bottom: 0px;
+}
+
+.left-interface .progress-label {
+    display: none;
+    visibility: hidden;
+}
+
+.left-interface .progress-lvl {
+    margin-bottom: 20px;
+    visibility: visible;
+}
+
+.left-interface .progress-line {
+    background: #4f4e4ead !important;
+    height: 17px;
+}
+
+.left-interface .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+}
+
+.left-interface .level {
+    color: #fff;
+}
+
+.left-interface .avatar-info,
+.left-interface .user-info{
+    background: transparent !important;
+	margin-left: -18px;
+	border: none;
+}
+.left-interface .money {
+    background: transparent !important;
+	margin-left: -18px;
+    margin-top: 3%;
+	border: none;
+}
+.left-interface .avatar-info:hover,
+.left-interface .user-info:hover {
+    background: transparent;
+}
+
+/* Left icons */
+.left-icons {
+    background: transparent !important;
+    left: 0 !important;
+	border-radius: 0 !important;
+}
+
+.left-icons .icon-btn {
+    background: transparent;
+	border: none;
+    width: 107px;
+    border-radius: 0;
+}
+
+.left-icons .icon-btn .text-icon,
+.left-icons .icon-btn svg {
+    display: none;
+}
+
+/* Left Icon Text Translation*/
+.icon-btn.text-1.HUB:after {
+	visibility: visible;
+	content: "hup" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.icon-btn.text-1.STORE:after {
+	visibility: visible;
+	content: "stor" !important;
+	font-family: gamefont;
+		font-size: 15px;
+}
+
+.icon-btn.text-1.SERVERS:after {
+	visibility: visible;
+	content: "serfurs" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.icon-btn.text-1.QUESTS:after {
+	visibility: visible;
+	content: "kwests" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.icon-btn.text-1.FRIENDS:after {
+	visibility: visible;
+	content: "frends" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.icon-btn.text-1.INVENTORY:after {
+	visibility: visible;
+	content: "infetorie" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.icon-btn.text-1.MAP:after {
+	visibility: visible;
+	content: "DEV" !important;
+	font-family: gamefont;
+	font-size: 15px;
+}
+
+.coin-icon {
+    padding-right: 10px !important;
+
+}
+
+/* Right Interface */
+.right-interface {
+	padding-top: 20px;
+}
+
+.soc-group:nth-child(1),
+.soc-group:nth-child(2) {
+	background: transparent !important;
+	border: none;
+    visibility: hidden;
+}
+
+.soc-group:nth-child(1):hover,
+.soc-group:nth-child(2):hover {
+	background: none !important;
+	transform: scale(1.5);
+    visibility: hidden;
+}
+
+.right-interface .settings {
+	background: transparent;
+	border: none;
+	width: 20px !important;
+	transition: 0.3s;
+    z-index: 2;
+} 
+
+.right-interface .settings:hover {
+	background: none;
+	transform: scale(1.5);
+}
+
+.right-interface {
+    z-index: 999 !important;
+}
+/*
+.soc-group:nth-child(2) {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/947500791365787729/monitor-512.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 50px !important;
+    background-position-x: 1rem !important;
+    background-position-y: 1rem !important;
+	border: none;
+    position: fixed;
+    right: 80px;
+    top: 12px;
+}
+
+.soc-group:nth-child(2):hover {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/947500791365787729/monitor-512.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 50px !important;
+    background-position-x: 1rem !important;
+    background-position-y: 1rem !important;
+    transform: scale(1.2);
+}
+
+.soc-group:nth-child(2) svg {
+    opacity: 0;
+}
+*/
+
+/* Daily Quest */
+#dailyQuests {
+    position: fixed;
+    top: 50px;
+	background: transparent;
+    border: none;
+	border-radius: 0;
+	z-index: -1 !important;
+	overflow: auto;
+}
+
+.quest {
+	background: transparent !important;
+}
+
+#dailyQuests .tip {
+	background: transparent !important;
+	border-radius: 0 !important;
+	margin-left: 15px;
+}
+
+.quest .progress-line {
+	background: #e3ddddad;
+}
+
+#dailyQuests .reward {
+	background: #ffffffad;
+}
+
+.quest .amount {
+	color: #ddd8d8;
+}
+
+.quest .progress2 {
+	color: #87898c;
+}
+
+.quest .progress-line .progress {
+	background: -webkit-gradient(linear, left top, right top, from(#fff), to(#fff)) !important;
+    background: linear-gradient(to right, #fff, #eee) !important;
+}
+
+/* Container */
+.container {
+    background: #101216 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.container-card {
+    background: #101216 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.loader  {
+	background: transparent !important;
+	border: none !important;
+}
+
+.background {
+    background: transparent !important;
+    border-radius: 0;
+}
+
+.tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+}
+
+.tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.tab:hover,
+.nav:hover {
+	color: #1e1e1e !important;
+}
+
+.tab.active {
+	color: #ffffff;
+	border-bottom: 3px solid #ffffff;
+}
+
+.active-tab {
+	color: #ffffff !important;
+	border-bottom: 3px solid #ffffff;
+}
+
+.nav.active {
+	color: #ffffff;
+}
+
+.head-text {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.add-friends,
+.top-items {
+    background: transparent !important;
+}
+
+.limit {
+    border-left: none !important;
+}
+
+.top-bar,
+.close,
+.home,
+.name-page,
+.select-mods-cont hr,
+.info-icon,
+.container button .border-top,
+.container button .border-bottom {
+    display: none !important;
+}
+
+.reset-time,
+.info-awards,
+.news {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.settings .box {
+    background: transparent;
+    border: none;
+}
+
+.select-mods-cont {
+    width: 400px !important;
+    height: 517px !important;
+    border: 1px solid #ffffff !important;
+    border-radius: 5px !important;
+    background: #1e1e1e !important;
+    overflow: visible;
+	z-index: 999 !important;
+    margin-right: 150%;
+}
+
+.interface.text-2 > .play > div > .play-content-up > div > div > .select-mods-maps {
+    display: grid;
+    text-align: left;
+    padding: 0 19px;
+    width: 100% !important;
+    height: 75% !important;
+}
+
+.select-regions-cont {
+    border: none !important;
+    border-radius: 0 !important;
+    background: #1e1e1e !important;
+    margin-bottom: 40px;
+}
+
+.container button {
+    background: #1e1e1e !important;
+    border-radius: 0 !important;
+    transform: none !important;
+}
+
+.container button {
+    background: rgb(68, 68, 68) !important;
+    border-radius: 0 !important;
+    transform: none !important;
+}
+
+.container button .border-top,
+.container button .border-bottom {
+    display: none;
+}
+
+.text {
+    transform: none !important;
+}
+
+.settings .header,
+.vm--container .cont .head {
+	color: white !important;
+}
+
+.settings .label {
+	color: #87898c ;
+}
+
+.select-regions-regions .region:nth-child(1) span,
+.select-regions-regions .region:nth-child(2) span,
+.select-regions-regions .region:nth-child(3) span,
+.select-mods-mods .mod:nth-child(1) span,
+.select-mods-mods .mod:nth-child(2) span {
+	visibility: hidden;
+}
+
+.select-regions-regions .region:nth-child(1) span:before,
+.select-regions-regions .region:nth-child(2) span:before,
+.select-regions-regions .region:nth-child(3) span:before,
+.select-mods-mods .mod:nth-child(1) span:before,
+.select-mods-mods .mod:nth-child(2) span:before {
+	visibility: visible;
+}
+
+.select-regions-regions .region:nth-child(1) span:after{
+	visibility: visible;
+	content: "na L";
+	margin-left: -130px;
+}
+
+.select-regions-regions .region:nth-child(2) span:after{
+	visibility: visible;
+	content: "EU";
+	margin-left: -60px;
+}
+
+.select-regions-regions .region:nth-child(3) span:after{
+	visibility: visible;
+	content: "oce L";
+	margin-left: -32px;
+}
+
+.select-mods-mods .mod:nth-child(1) span:after{
+	visibility: visible;
+	content: "solo";
+	margin-left: -40px;
+}
+
+.select-mods-mods .mod:nth-child(2) span:after{
+	visibility: visible;
+	content: "squad";
+	margin-left: -47px;
+}
+.select-mods-mods .mod:nth-child(3) span:after{
+	visibility: visible;
+	content: "";
+	margin-left: 0px;
+}
+.select-mods-mods .mod:nth-child(4) span:after{
+	visibility:visible;
+	content: "";
+	margin-left: 20px;
+}
+
+/* Profile */
+.profile .statistics,
+.profile .progress,
+.profile .k-d,
+.card-profile {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.profile .you {
+    visibility: hidden;
+}
+
+.profile .progress-line {
+    background: #e0e0e0ad;
+}
+
+.profile .progress-level-value,
+.stat-name {
+    color: #fff !important;
+}
+
+.profile .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#000)) !important;
+    background: linear-gradient(to right, #0056ff, #00f2ff) !important;
+}
+
+.heads .levels {
+    display: none;
+    color: #fff;
+}
+
+.stat-value {
+    color: #888 !important;
+}
+
+.news img {
+    border-radius: 0 !important;
+}
+
+.news .info {
+    background: #101216 !important;
+}
+
+.news .info-content {
+    background: #101216 !important;
+}
+
+.info h1 {
+    background: #101216 !important;
+}
+
+.changelog-item {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Inventory */
+.tab-bar,
+.subject,
+.inventory .avatar {
+    background: transparent !important;
+}
+
+.subjects,
+.gun {
+    background: transparent !important;
+    border: none !important;
+}
+
+.inventory .avatar-head {
+    display: none;
+}
+
+.inventory .bottom {
+    background: transparent !important;
+    backdrop-filter: blur(2px) !important;
+    background-image: linear-gradient(to left, #39ffd400, #39ffd417) !important;
+}
+
+/* Play Content */
+.play-content .select-region,
+.play-content .select-mod {
+    background: black;
+    border-radius: 0;
+    border: 4px solid #ffffff1c;
+}
+
+.play-content .select-region:hover {
+    background: black;
+    backdrop-filter: blur(5px);
+}
+
+.play-content .select-mod:hover {
+    background: black;
+}
+
+#play-btn {
+    background: black !important;
+    width: 310px;
+    box-shadow: none !important;
+    transform: none !important;
+}
+
+#play-btn:hover {
+    background: #fff !important;
+}
+
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none !important;
+}
+
+.triangle {
+    display: none !important;
+}
+
+/* Leaderboard */
+.leaders .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.lvl-leader {
+    color: white !important;
+}
+
+.list-cont,
+.list-champions,
+.top-items .items .item,
+.bottom-items .item,
+.leaderboard-cont .items {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.list-players .top-items {
+    box-shadow: none !important;
+}
+
+/* Clan */
+.clans,
+.clans .items .item,
+.my-clan .list-container .list .item .item-content {
+    background: transparent !important;
+}
+
+.my-clan .card-cont,
+.my-clan .list-container,
+.champions-list {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.my-clan .card-cont .name {
+	color: #fff;
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.my-clan .champions-league,
+.my-clan .champions-scores,
+.my-clan .all-scores-label {
+	color: #c8c8c8 !important;
+}
+
+.my-clan .champions-values,
+.my-clan .all-scores-value,
+.my-clan .description {
+	color: whitesmoke;
+}
+
+/* Market */
+.bottom-subj .count {
+    background: transparent;
+}
+
+/* Esc Interface*/
+.esc-interface {
+    backdrop-filter: blur(5px);
+}
+
+.esc-interface .head-right button,
+.esc-interface .head-right button .border-top,
+.esc-interface .head-right button .border-bottom {
+    background: #101216 !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.esc-interface .head-right button:hover {
+    background: #101216 !important;
+    border-bottom: 5px solid white;
+}
+
+.esc-interface .left-container .player {
+    background: transparent;
+    background-image: linear-gradient(to left, #39ffd408, #39ffd440) !important;
+}
+
+.esc-interface .right-container {
+    background: transparent !important;
+}
+
+.esc-interface .player .label {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.esc-interface .primary {
+	color: #ffffff !important;
+}
+
+.esc-interface .level{
+	color: #fff;
+}
+
+.continue {
+	background: rgb(68, 68, 68) !important;
+	box-shadow: none !important;
+}
+
+.continue .border-top,
+.continue .border-bottom {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+/* HUD */
+.mini-map-cont .name,
+.desktop-game-interface .info-key-cont,
+.list-weapons,
+.hp-title,
+.mWwn,
+.instruction {
+    display: none !important;
+}
+
+.cont-hp {
+    background: transparent !important;
+}
+
+.hp {
+  transform: rotateZ(270deg);
+    margin-left: 200%;
+	   margin-top: -90%;
+}
+
+.hp-progress {
+    background: #ff00007a !important;
+    border: 0px solid #f00;
+}
+
+.desktop-game-interface .state {
+    position: fixed;
+    width: 500px !important;
+    top: 93%;
+    left: 37% !important;
+}
+
+.cont-endurance {
+	      margin-left: 10%;
+    background: rgba(102, 73, 73, 0) !important;
+    border: #f00;
+}
+
+.endurance-progress {
+	background: -webkit-gradient(linear, left top, right top, from(#f00), to(black)) !important;
+    background: linear-gradient(to right, #1000ff3d, #0040ff5e) !important;
+    border: 1px solid #fff;
+}
+
+.weapons-cont {
+    position: fixed;
+    width: 300px;
+    top: 95%;
+    left: 5%;
+    margin-top: -100px;
+    margin-left: 252px ;
+}
+
+.ammunition {
+    display: inline-block;
+    position: fixed;
+    color: #f00;
+    left: calc(36% + -190px);
+  }
+
+.kill-death {
+    margin-top: 60px;
+    margin-left: 2px;
+}
+
+.kill-death .kill,
+.kill-death .death {
+    background: transparent;
+    box-shadow: none;
+}
+
+.state-cont .timer {
+    position: fixed;
+    top: 18px;
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 50px;
+}
+
+/* In Game Leaderboard */
+.tab-info {
+    background: rgba(55, 55, 55, .61) !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: 5px solid black;
+    }
+    
+    .tab-info .head {
+    display: none;
+    }
+    
+    .tab-info .player {
+    background: transparent !important;	
+    }
+    
+    .tab-info .primary {
+    color: white !important;
+    }
+    
+    .tab-info .nickname,
+    .tab-info .player-right {
+    color: #fff;
+    }
+    
+    .tab-info .list {
+    color: white;
+    margin: 0 !important;
+    }
+    
+    .tab-info .list .list-value:nth-child(1),
+    .tab-info .list .list-value:nth-child(2),
+    .tab-info .list .list-value:nth-child(3) {
+    visibility: hidden;
+    }
+    
+    .tab-info .list .list-value:nth-child(1):after {
+    visibility: visible;
+    content: "K";
+    margin-left: -36px;
+    }
+    
+    .tab-info .list .list-value:nth-child(2):after {
+    visibility: visible;
+    content: "D";
+    margin-left: -36px;
+    }
+    
+    .tab-info .list .list-value:nth-child(3):after {
+    visibility: visible;
+    content: "S";
+    margin-left: -49px;
+    }
+
+    .achive-cont{
+        content: url(https://64.media.tumblr.com/a4762992ddfa63c82fb94cd6c2ea8fda/6e9a712374df1758-ba/s640x960/72c214b94b16df2d287f5b8abdc5782ac9fd0f52.gifv) !important;
+        position: absolute !important;
+        right: 46% !important;
+        width:10em; 
+        height:10em;
+        }
+
+.kill-bar-item {
+	background: rgba(55, 55, 55, .61) !important;
+}
+
+.kill-bar-item .name {
+	color: #fff;
+}
+
+.kill-bar-item .name-kill {
+	color: #fff;
+}
+
+/* Chat */
+.chat {
+    margin-bottom: -53px;
+    border-radius: 5px;
+}
+
+.chat .input-wrapper {
+    top: 400px !important;
+    width: 103%;
+    height: 15px;
+}
+
+.chat .name {
+    color: #ff5a5a;
+}
+
+.message{
+    color: #00ffdf !important;
+}
+
+.message .lvl {
+    color: #ff00e4;
+}
+
+/* End Screen */
+.end-modal .bottom {
+    display: none;
+}
+
+.end-modal .progress-line {
+    background: #4f4e4ead;
+}
+
+.end-modal .progress {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff)) !important;
+    background: linear-gradient(to right, #ffffff, #ffffff) !important;
+}
+
+.end-modal .team-list-players .card-cont:nth-child(1),
+.end-modal .team-list-players .card-cont:nth-child(2),
+.end-modal .items {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.end-modal .team-list-players .label {
+    background: transparent;
+}
+
+.end-modal .label-text,
+.end-modal .points,
+.end-modal .lvl-leader {
+    color: white;
+}
+
+.end-modal .chat {
+    margin-bottom: -53px;
+    border-radius: 5px;
+}
+
+.end-modal .chat .input-wrapper {
+    top: 400px !important;
+    width: 103%;
+    height: 130px;
+}
+
+.end-modal #WMNn {
+    width: 310px;
+    margin-left: 20px;
+}
+
+.end-modal .team-list-players .list .player {
+    background: transparent;
+}
+
+.end-modal .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Reward Container */
+.progress,
+.lvl,
+.progress-helper {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ffffff)) !important;
+    background: linear-gradient(to right, #ffffff, #ffffff) !important;
+}
+
+.buy-btn {
+	display: none !important;
+}
+
+.level-head {
+    display: none !important;
+    color: red;
+}
+
+.decor-bg {
+	display: none;
+}
+
+/* Inputs */
+.private-btn > span {
+	content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
+	position: fixed;
+	left: 25px;
+	width: 40px;
+}
+
+.private-btn > input:checked + span {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/953239093955948544/lock.png);
+}
+
+.custom-checkbox > span:before {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+
+.custom-checkbox > input:checked + span:before {
+    background-color: rgb(9, 148, 148);
+}
+
+input {
+    background: white !important;
+    color: black !important;
+    border-radius: 10px !important;
+}
+
+.selected {
+    background: black;
+}
+
+.items {
+    background: #292e39 !important;
+    box-shadow: none !important;
+}
+
+.settings .input {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.copy button {
+	background: black !important;
+	box-shadow: none !important;
+}
+
+.copy .border {
+	display: none;
+}
