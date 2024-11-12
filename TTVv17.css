@@ -3710,8 +3710,8 @@ body:has(#app > .game-interface) > .nav {
   content: "";
   position: absolute;
   background: var(--logo) 100% / 100%;
-  width: 100px;
-  height: 100px;
+  width: 241px;
+  height: 139px;
   left: -125px;
 }
 .loading-scene > .logo > img {
