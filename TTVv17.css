@@ -4018,9 +4018,6 @@ body:has(#app > .game-interface) > .nav {
 .invite-right {
 	background: rgb(79, 79, 79) !important;
 }
-.view {
-	background: rgb(79, 79, 79) !important;
-}
 .container-card {
 	background: rgb(79, 79, 79) !important;
 }
@@ -4050,4 +4047,10 @@ body:has(#app > .game-interface) > .nav {
 .user-card .clan:after,
 .clan-tag:after {
   content: "]";
+}
+.reward {
+	background: transparent !important;
+}
+.tab {
+	background: transparent !important;
 }
