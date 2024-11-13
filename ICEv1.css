@@ -725,8 +725,13 @@ div.top-medium {
 }
 .left-icons {
     top: 0 !important;
-    left: 28rem !important;
+    left: 13rem !important;
     height: 8rem !important;
     flex-direction: row !important;
     background: transparent !important;
+}
+.interface .news-card {
+	position: absolute;
+	left: +8000000000000007%;
+	top: +500000000000000000000000000000px;
 }
