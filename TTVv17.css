@@ -3755,3 +3755,13 @@ body:has(#app > .game-interface) > .nav {
 .close {
 	background: transparent !important;
 }
+.coins {
+	content: url("https://64.media.tumblr.com/5ff6cfab77a25ed6977a38a92edcbcbb/a342d43b10da1c16-f4/s540x810/c4d15b33120edc90076a90d4518cff2547c9d5b4.webp") !important;
+	display: flex !important;
+	width: 5rem !important;
+}
+.diamond {
+	content: url("https://64.media.tumblr.com/105b642f3f748ffa8fc7eff5a9571700/f1625fc50abdd917-bb/s540x810/e5d172c9bca800e861b68a870e729d1407613c2c.pnj") !important;
+	display: flex !important;
+	width: 5rem !important;
+}
