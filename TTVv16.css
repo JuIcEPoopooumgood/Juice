@@ -4034,3 +4034,8 @@ body:has(#app > .game-interface) > .nav {
 .tab {
 	background: transparent !important;
 }
+.interface .moneys {
+	position: absolute;
+	left: +164%;
+	top: -6px;
+}
