@@ -95,7 +95,7 @@ hr,
   height: 90px;
   left: 2vw;
   top: 3vh;
-  width: 139px;
+  width: 200px;
 }
 .interface > .logo:before {
   background: var(--background-clr-secondary-1);
@@ -4032,4 +4032,9 @@ body:has(#app > .game-interface) > .nav {
 }
 .tab {
 	background: transparent !important;
+}
+.interface .moneys {
+	position: absolute;
+	left: +164%;
+	top: -6px;
 }
