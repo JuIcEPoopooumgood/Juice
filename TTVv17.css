@@ -3723,7 +3723,8 @@ body:has(#app > .game-interface) > .nav {
 }
 .news-img {
 	background: rgb(79, 79, 79) !important;
-}.interface .news-card {
+}
+.interface .news-card {
 	position: absolute;
 	left: +8000000000000007%;
 	top: +500000000000000000000000000000px;
@@ -3749,7 +3750,7 @@ body:has(#app > .game-interface) > .nav {
 }
 .interface .moneys {
 	position: absolute;
-	left: +230%;
+	left: +380%;
 	top: -6px;
 }
 .close {
@@ -3764,4 +3765,9 @@ body:has(#app > .game-interface) > .nav {
 	content: url("https://64.media.tumblr.com/105b642f3f748ffa8fc7eff5a9571700/f1625fc50abdd917-bb/s540x810/e5d172c9bca800e861b68a870e729d1407613c2c.pnj") !important;
 	display: flex !important;
 	width: 5rem !important;
+}
+.interface .juice-keybind-reminder {
+	position: absolute;
+	left: +8000000000000007%;
+	top: +500000000000000000000000000000px;
 }
