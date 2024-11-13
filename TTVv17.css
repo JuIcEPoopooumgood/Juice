@@ -467,9 +467,7 @@ hr,
   text-transform: uppercase;
 }
 
-.select-mod > .select-mods-cont {
-  transform: rotate(-90deg);
-}
+
 
 .play-content > .select-region {
   align-items: center;
@@ -526,149 +524,6 @@ hr,
 
 .region > .custom-checkbox > span {
   font-size: 0.875rem;
-}
-
-.select-mod > .select-mods-cont {
-  background: unset;
-  border: unset;
-  bottom: unset;
-  box-shadow: unset;
-  left: 305px;
-  max-height: 420px;
-  position: absolute;
-  right: unset;
-  top: 30px;
-  width: 401px !important;
-}
-
-.select-mods-cont > .select-mods-mods {
-  align-content: unset;
-  flex-direction: column;
-  height: 100%;
-  width: calc(100% - 60px) !important;
-}
-
-.select-mods-mods > .mod,
-.select-mods-maps > .map {
-  background: var(--background-clr-secondary-2);
-  border-radius: 0.25rem;
-  box-shadow: var(--shadow-secondary);
-  font-weight: 600;
-  height: 50px;
-  margin-bottom: 0.5rem;
-  margin-right: 0.5rem;
-  text-transform: uppercase;
-  transition: background 0.3s ease;
-  width: 100% !important;
-}
-
-.select-mods-mods > .mod:hover,
-.select-mods-maps > .map:hover {
-  background: var(--background-hover-clr-2);
-}
-
-.select-mods-maps {
-  overflow: unset !important;
-  position: absolute;
-  visibility: hidden;
-  z-index: 0;
-}
-
-.select-mods-maps > .map:nth-child(1),
-.select-mods-maps > .map:nth-child(2),
-.select-mods-maps > .map:nth-child(3),
-.select-mods-maps > .map:nth-child(4),
-.select-mods-maps > .map:nth-child(5) {
-  box-shadow: unset !important;
-}
-
-.map > .custom-checkbox,
-.mod > .custom-checkbox,
-.weapon > .custom-checkbox,
-.region > .custom-checkbox {
-  display: flex;
-  height: 100%;
-  width: 100%;
-}
-
-.map > .custom-checkbox > input:checked + span:before,
-.mod > .custom-checkbox > input:checked + span:before,
-.weapon > .custom-checkbox > input:checked + span:before,
-.region > .custom-checkbox > input:checked + span:before {
-  background: var(--background-clr-secondary-5) !important;
-  background-image: unset !important;
-  border: 0;
-}
-
-.map > .custom-checkbox > span:before,
-.mod > .custom-checkbox > span:before,
-.weapon > .custom-checkbox > span:before,
-.region > .custom-checkbox > span:before {
-  background: var(--background-clr-secondary-3) !important;
-  border: 0;
-  border-radius: 50%;
-  height: 12px;
-  margin: unset;
-  margin-right: 0.5rem;
-  width: 12px;
-}
-
-.select-mods-maps::before {
-  align-items: center;
-  background: var(--background-clr-secondary-6);
-  border-radius: 0.25rem;
-  bottom: 0;
-  color: var(--background-clr-primary);
-  content: "Maps";
-  display: flex;
-  font-size: 1.313rem;
-  height: 50px;
-  justify-content: flex-start;
-  left: 0;
-  padding-left: 1.8rem;
-  position: absolute;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-  visibility: visible;
-  width: 316px;
-}
-
-.select-mods-maps:after {
-  content: "";
-  display: none;
-  inset: 0;
-  outline: 2px solid red;
-  position: absolute;
-  transition: all 0.3s ease;
-}
-
-.select-mods-maps:hover:before {
-  left: -500px;
-  visibility: visible;
-}
-
-.select-mods-maps:hover {
-  visibility: visible;
-}
-
-.select-mods-cont > .select-mods-maps {
-  align-content: flex-start;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  height: 345px !important;
-  width: 1070px !important;
-}
-
-.select-mods-maps:hover:after,
-.select-mods-maps:hover:before {
-  display: flex;
-  visibility: hidden;
-}
-
-.select-mods-maps > .map {
-  margin: unset !important;
-  width: 345px !important;
 }
 
 .head > .cont-name,
@@ -3945,4 +3800,7 @@ body:has(#app > .game-interface) > .nav {
 	position: absolute;
 	left: +164%;
 	top: -6px;
+}
+.close {
+	background: transparent !important;
 }
