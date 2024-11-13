@@ -365,12 +365,12 @@ button:hover,
 
 .quests[data-v-5392a807] {
     position: fixed;
-    top: 4px;
+    top: +200px;
     color: var(--white);
     overflow-y: hidden;
     padding: 4px;
     width: 379px;
-    height: 409px;
+    height: 398px;
     border-radius: 1rem;
     background: #7189e100 !important;
     border: 0.2rem solid #fff;
