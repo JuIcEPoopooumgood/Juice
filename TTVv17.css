@@ -21,7 +21,7 @@
   --clr-neutral-200: hsl(218, 23%, 9%);
   --img-wallpaper: url(https://juicepoopooumgood.github.io/Juice/Leonardo_Diffusion_XL_make_a_cute_ice_wizzard_with_a_crown_png_6.webp);
   --img-wallpaper-filtered: url(https://juicepoopooumgood.github.io/Juice/Leonardo_Diffusion_XL_make_a_cute_ice_wizzard_with_a_crown_png_6.webp);
-  --logo: url(https://juicepoopooumgood.github.io/Juice/IMG_20241112_115400.jpg);
+  --logo: url(https://juicepoopooumgood.github.io/Juice/damn.webp);
   --shadow-primary: 0 0 16px 0 rgba(0, 0, 0, 0.9);
   --shadow-secondary: 0 0 16px 0 rgba(0, 0, 0, 0.5);
   --text-clr-default: #dbdbdc;
@@ -92,7 +92,7 @@ hr,
 
 .interface > .logo {
   content: var(--logo);
-  height: 90px;
+  height: 150px;
   left: 2vw;
   top: 3vh;
   width: 200px;
@@ -491,7 +491,7 @@ hr,
 }
 
 .play-content > .select-region:before {
-  content: "PICK?";
+  content: "Region";
   font-size: 1.313rem;
   text-transform: uppercase;
 }
@@ -509,7 +509,7 @@ hr,
   height: 100px;
   padding: unset;
   position: absolute;
-  right: -14.25rem;
+  right: -17.3rem;
   transition: unset;
   width: auto;
 }
@@ -3996,16 +3996,16 @@ body:has(#app > .game-interface) > .nav {
 	background: transparent !important;
 }
 .invite-btn {
-	background: rgb(79, 79, 79) !important;
+	background: rgba(79, 79, 79, 0) !important;
 }
 .invite-right {
-	background: rgb(79, 79, 79) !important;
+	background: rgba(79, 79, 79, 0) !important;
 }
 .container-card {
-	background: rgb(79, 79, 79) !important;
+	background: rgba(79, 79, 79, 0) !important;
 }
 .news-card {
-	background: rgb(79, 79, 79) !important;
+	background: rgba(79, 79, 79, 0) !important;
 }
 .news-img {
 	background: rgb(79, 79, 79) !important;
