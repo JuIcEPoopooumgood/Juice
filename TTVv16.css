@@ -92,10 +92,10 @@ hr,
 
 .interface > .logo {
   content: var(--logo);
-  height: 50px;
+  height: 241px;
   left: 2vw;
   top: 3vh;
-  width: 50px;
+  width: 139px;
 }
 
 .interface > .logo:before {
