@@ -2100,25 +2100,7 @@ hr,
   width: 100% !important;
 }
 
-.skin-body:after,
-.grad-weapon:after,
-.rar-skin:after {
-  background: inherit;
-  content: "";
-  inset: 0.15rem;
-  opacity: 0.1;
-  position: absolute;
-}
 
-.skin-body:before,
-.grad-weapon:before,
-.rar-skin:before {
-  background-color: var(--background-clr-primary);
-  border-radius: 0.25rem;
-  content: "";
-  inset: 0.15rem;
-  position: absolute;
-}
 
 .bottom-subj > .count {
   bottom: unset;
@@ -2359,16 +2341,7 @@ button:after {
   border: unset !important;
 }
 
-.store-skins > .skin-body {
-  border: unset !important;
-  border-radius: 0.25rem !important;
-  height: 25rem !important;
-  margin: unset !important;
-}
 
-.store-skins > .skin-body:nth-child(1) {
-  margin-right: 0.5rem !important;
-}
 
 #carouselUniques
   > .slider-container
@@ -2536,14 +2509,6 @@ button:after {
   transform: none !important;
 }
 
-.store-skins {
-  align-items: center;
-  justify-content: center;
-}
-
-.store-skins > .weapons {
-  margin: unset !important;
-}
 
 .bundle .weapon {
   background: unset !important;
@@ -2593,11 +2558,7 @@ button:after {
   width: 12rem;
 }
 
-.skin-body > .hover > button {
-  left: -60px;
-  top: 0;
-  width: 12rem;
-}
+
 
 .content > .levels {
   overflow: hidden;
@@ -2626,7 +2587,7 @@ div > .box-shadow > .level-card {
 
 .level-card > .box-border,
 .bg-progress > .decor-bg,
-.progress > .buy-btn,
+.progress > 
 .level-head > .description,
 .level-card > .bg {
   display: none !important;
@@ -2708,17 +2669,7 @@ div > .box-shadow > .level-card {
 }
 
 
-.hover-btns-group > .take-btn:before {
-  content: "";
-}
 
-.hover-btns-group > .sell-btn:before {
-  content: "";
-}
-
-.hover-btns-group > .market-btn:hover {
-  color: var(--background-clr-primary);
-}
 
 .quests > .tabs-wrapper {
   padding: 0.5rem;
