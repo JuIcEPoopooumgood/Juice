@@ -4036,6 +4036,6 @@ body:has(#app > .game-interface) > .nav {
 }
 .interface .moneys {
 	position: absolute;
-	left: +164%;
+	left: +230%;
 	top: -6px;
 }
