@@ -2852,105 +2852,13 @@ div > .box-shadow > .level-card {
   background: var(--background-clr-secondary-5) !important;
 }
 
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group:has(.take-btn)
-  > button:hover {
-  color: var(--background-clr-primary);
-  text-decoration: underline;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .take-btn:hover {
-  background: var(--background-clr-secondary-6) !important;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .sell-btn:hover {
-  background: var(--background-clr-secondary-7) !important;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .market-btn:hover {
-  background: var(--background-clr-secondary-5) !important;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .take-btn,
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .market-btn,
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .sell-btn {
-  background: var(--background-clr-secondary-4) !important;
-  border-radius: 0 !important;
-  color: var(--text-clr-primary);
-  height: 100% !important;
-  max-height: 50px;
-  width: 100%;
-  z-index: 100 !important;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > .market-btn
-  > .text {
-  font-size: unset;
-}
-
-.content
-  > .inventory
-  > .content
-  > .subjects
-  > .subject
-  > .hover-btns-group
-  > button
-  > .text {
-  font-size: 0;
-}
 
 .hover-btns-group > .take-btn:before {
-  content: "TAKE";
+  content: "";
 }
 
 .hover-btns-group > .sell-btn:before {
-  content: "BE DUMB AND SELL";
+  content: "";
 }
 
 .hover-btns-group > .market-btn:hover {
