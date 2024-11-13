@@ -391,7 +391,7 @@ hr,
   left: 2vw;
   padding: unset;
   right: unset;
-  top: 25vh;
+  top: 70vh;
   z-index: 10;
 }
 
@@ -4018,11 +4018,7 @@ body:has(#app > .game-interface) > .nav {
 .moneys {
 	background: rgba(79, 79, 79, 0) !important;
 }
-.interface .moneys {
-	position: absolute;
-	left: +150%;
-	top: +480px;
-}
+
 .user-card .clan:before,
 .clan-tag:before {
   content: "[";
