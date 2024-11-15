@@ -1,0 +1,1232 @@
+
+@-moz-document domain("example.com") {
+    /* Insert code here... */
+}/* ==UserStyle==
+@name           ? - Jul 2024
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("example.com") {}
+/* made by PoopooumgoodTTV */
+/* made by PoopooumgoodTTV */
+:root {
+    --asscentColor: #00c9ff;
+    --bg-image: url(https://64.media.tumblr.com/629dfea3868af5e5f8b97445eed09e87/ec5fdd09e2c2d858-31/s540x810/352667264140fb96cea1b0b0bdb43efee877af36.webp);
+    --secondary-5: #f00 --textColor: #000;
+    --right-border: 2px solid var(--asscentColor);
+    --corners: linear-gradient(to right, var(--asscentColor) 2px, transparent 2px) 0 100%, linear-gradient(to left, var(--asscentColor) 2px, transparent 2px) 100% 100%, linear-gradient(to top, var(--asscentColor) 2px, transparent 2px) 0 100%, linear-gradient(to top, var(--asscentColor) 2px, transparent 2px) 100% 100%, linear-gradient(to right, var(--asscentColor) 2px, transparent 2px) 0 0, linear-gradient(to left, var(--asscentColor) 2px, transparent 2px) 100% 0, linear-gradient(to bottom, var(--asscentColor) 2px, transparent 2px) 0 0, linear-gradient(to bottom, var(--asscentColor) 2px, transparent 2px) 100% 0;
+    --right-corners: linear-gradient(to right, var(--asscentColor) 0px, transparent 0px) 0 100%, linear-gradient(to left, var(--asscentColor) 2px, transparent 2px) 100% 100%, linear-gradient(to top, var(--asscentColor) 0px, transparent 0px) 0 100%, linear-gradient(to top, var(--asscentColor) 2px, transparent 2px) 100% 100%, linear-gradient(to right, var(--asscentColor) 0px, transparent 0px) 0 0, linear-gradient(to left, var(--asscentColor) 2px, transparent 2px) 100% 0, linear-gradient(to bottom, var(--asscentColor) 0px, transparent 0px) 0 0, linear-gradient(to bottom, var(--asscentColor) 2px, transparent 2px) 100% 0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--asscentColor);
+}
+::-webkit-scrollbar:horizontal {
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background: transparent !important;
+    border-radius: 10px;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #f00, 0 0 5px var(--textColor), 0 0 5px var(--textColor), 0 0 5px var(--textColor), 0 0 6px var(--textColor), 0 0 7px var(--textColor), 0 0 8px var(--textColor);
+    }
+}
+.achive-cont {
+    content: url(https://o.remove.bg/downloads/806775b5-f47f-4a23-8f01-105987f528be/image-removebg-preview.png) !important;
+    position: fixed;
+    right: 45%;
+}
+/* kill icon */
+.animate-cont {
+    content: url(https://static.wixstatic.com/media/e00165_ed25fd1d6bef4a0db753ae1f7b64ef6a~mv2.png);
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+}
+/*Credits*/
+.play:before {
+    content: "https://discord.gg/bWJV6CBhT7";
+    margin-right: 30px;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    color: #fff0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--asscentColor);
+}
+::-webkit-scrollbar:horizontal {
+    background-color: transparent !important;
+}
+::-webkit-scrollbar-thumb:horizontal {
+    background: transparent !important;
+    border-radius: 10px;
+}
+/*Fonts*/
+* {
+    font-family: 'Dancing Script', sans-serif;
+}
+* {
+    text-shadow: none !important;
+    -webkit-text-stroke: 0 transparent !important;
+}
+/* Hide Logo */
+.interface .logo {
+    display: none;
+    visibility: hidden;
+}
+.promo-link-btn {
+    display: none !important;
+}
+.soc-group[data-v-3c44abf2] {
+    display: none;
+}
+/* Glows Clan Name */
+.clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+#app > div.interface.text-2 > div.team-section > div.player > div > div.levels,
+#app > div.game-interface > div.esc-interface > div.left-container > div.player-list > div > div.player-right > div,
+#0000 > div.time-left > button {
+    border-radius: 0px;
+    background-color: var(--background) !important;
+    background: var(--corners);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+}
+/* Transparent */
+.box,
+.input,
+.settings,
+.quests,
+.quest,
+.tip,
+.amount,
+.reward,
+.progress-line,
+.card-cont,
+.container-card,
+.progress[data-v-49c6809c],
+.background,
+.container button .border-top,
+.container button .border-bottom,
+.messages.messages-cont.small,
+.title,
+.card-list,
+.head,
+.changelog-item,
+.card,
+.live-streams,
+.left,
+.level,
+.cont {
+    background: transparent !important;
+    border: none !important;
+}
+.progress[data-v-0f7a25c2] {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+}
+.active {
+    border-bottom: var(--asscentColor) solid 0.125rem !important;
+}
+/* Text Color */
+.level-value,
+.levels,
+.clan-tag,
+.top-name,
+.list-labels,
+.active,
+.level,
+.header,
+.lvl-leader,
+.label-primary,
+.awards-span,
+.ammunition,
+.champions-league,
+.champions-scores,
+.all-scores-label,
+.stat-name,
+.available-rooms,
+.light,
+.online,
+.progress-level-value,
+.label,
+.amount {
+    color: var(--asscentColor) !important;
+}
+.tab:hover,
+.nav:hover {
+    color: var(--asscentColor) !important;
+}
+/* Transparent Containers */
+.clans,
+.hub-container,
+.mobile-fullscreen,
+.add-friends,
+.tab-bar,
+.top-items,
+.subject,
+.inventory .avatar,
+.player-right,
+.inventory .bottom,
+.button.create-btn.rectangle,
+.border-top.border,
+.border-bottom.border,
+.level-value,
+.background,
+.time-left,
+.rewards {
+    background: transparent !important;
+}
+.head-text,
+.reset-time,
+.info-awards,
+.news,
+.list-cont,
+.card-profile,
+.profile .k-d,
+.profile .statistics,
+.profile-cont .progress[data-v-d2be3bc6] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+/* Custom Backgorund */
+#app > div.interface.text-2 > div.background {
+    background-image: var(--bg-image) !important;
+    background-size: cover !important;
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial {
+    display: none !important
+}
+.achive {
+    display: none !important;
+}
+.interface .clan-tag:after {
+    content: url(https://64.media.tumblr.com/eecae192a392484778b0f34bf8555f76/3c50d2d9ad88ee2f-ac/s75x75_c1/169c8f5b523a24ecaf80bd46ea10b0d3e74fc233.webp) !important;
+    margin-top: -3%;
+}
+
+/* to loing of a name will look diff*/
+
+
+.interface .join-btn:after {
+    content: url(https://64.media.tumblr.com/f05d72c3d535ad6b5cb67f1cfde088d1/0ec5b9d01dd0f184-5c/s640x960/3f4b698303e06b630db2e44755e60719a7eb3619.jpg) !important;
+    margin-top: -3%;
+}
+.interface .create-btn:after {
+    content: url(https://64.media.tumblr.com/f05d72c3d535ad6b5cb67f1cfde088d1/0ec5b9d01dd0f184-5c/s640x960/3f4b698303e06b630db2e44755e60719a7eb3619.jpg) !important;
+    margin-top: -3%;
+}
+.interface .button-btn-rectangle:after {
+    content: url(https://64.media.tumblr.com/c3309a78d0a4ca1909c1e4aa8a3e9341/73cdcc391301a2b3-6b/s400x600/a3f0b874c69fabd469eb0c82a0d052dc60e9dc68.pnj) !important;
+    margin-top: -3%;
+}
+.interface .select-region:after {
+    content: url(https://64.media.tumblr.com/b6f2f63c732ee1d5df9aeaa96081c68b/6fa8c2c66f72488c-cd/s75x75_c1/c2f02b0044e138cdf6c627a06d1ea03c324105ab.pnj) !important;
+    margin-top: -3%;
+}
+.interface .progress2:after {
+    content: url(https://64.media.tumblr.com/2e19587a93130ebfa485292f2360b4db/8a47cb0e095253be-84/s75x75_c1/b6c942a7e6bd4f79b420630ae158d510bcbf1b49.gifv) !important;
+    margin-top: -3%;
+}
+.interface .icon-btn:after {
+    content: url(https://64.media.tumblr.com/f1eaddadcdb1b71aea94b1d5cf02018b/d30ec5f04eaf6146-58/s100x200/88bb8bf264254b7bc6ccfe284a12a59472c0f2f4.pnj) !important;
+    margin-top: -3%;
+}
+.interface .avatar {
+    content: url(https://64.media.tumblr.com/f1eaddadcdb1b71aea94b1d5cf02018b/d30ec5f04eaf6146-58/s100x200/88bb8bf264254b7bc6ccfe284a12a59472c0f2f4.pnj) !important;
+    margin-top: -3%;
+}
+.interface .invite-btn:after {
+    content: url(https://64.media.tumblr.com/b6f2f63c732ee1d5df9aeaa96081c68b/6fa8c2c66f72488c-cd/s75x75_c1/c2f02b0044e138cdf6c627a06d1ea03c324105ab.pnj) !important;
+    margin-top: -3%;
+}
+
+/* Removed Profile Card */
+.avatar-info,
+.progress-label {
+    display: none !important;
+}
+/*End Screen Background*/
+#app > .end-modal {
+    background: var(--bg-image) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Login/Signup*/
+.auth-form {
+    margin-left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+.auth-form .btns button {
+    transform: none !important;
+    padding: 0px;
+}
+.auth-user .loading {
+    background: transparent !important;
+    border: none;
+    border-bottom: none !important;
+    border-radius: 0;
+}
+.auth-user .loader-container {
+    margin-right: 95% !important;
+}
+.auth-form .btns button:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.auth-form button,
+.auth-form button .border-top,
+.auth-form button .border-bottom {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.auth-form button .triangle {
+    display: none;
+}
+.button[data-v-02c36fca]:after {
+    border: none;
+}
+.moneys[data-v-2484b84e] {
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    margin-top: 80px;
+}
+/* Right Interface */
+.right-interface {
+    padding-top: 20px;
+}
+.soc-group:nth-child(1),
+.soc-group:nth-child(2) {
+    background: transparent !important;
+    border: none;
+    visibility: hidden;
+}
+.soc-group:nth-child(1):hover,
+.soc-group:nth-child(2):hover {
+    background: none !important;
+    transform: scale(1.5);
+    visibility: hidden;
+}
+.right-interface .settings {
+    background: rgba(0, 0, 0, 0);
+    content: url(https://64.media.tumblr.com/c1a7790378171470e16b0d87db5b62a0/cb17e07cea9029ae-67/s75x75_c1/07add6352c72a1e4d5234f1e110002e1ec93c54f.webp);
+    border: none;
+    margin-left: 0px;
+    margin-top: +120px;
+    width: 20px !important;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.right-interface .settings:hover {
+    background: none;
+    transform: scale(1.5);
+}
+.right-interface {
+    z-index: 999 !important;
+}
+/* coins */
+.money[data-v-e3674cae]::before {
+    content: "";
+    display: block;
+    width: 25px;
+    /* Adjust as needed */
+    height: 20px;
+    /* Adjust as needed */
+    background-image: url('https://64.media.tumblr.com/0361cc2599d77619236c11abd3c88b1a/2f4a9724eb8a0600-98/s250x400/27c8feab0959955f4569899e6a8ed554f5775c3a.gifv');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.coin-icon[data-v-924e79c6] {
+    display: none;
+}
+
+/* diamonds */
+.diamonds[data-v-e3674cae]::before {
+    content: "";
+    display: block;
+    height: 25px;
+    /* Adjust as needed */
+    background-image: url('https://64.media.tumblr.com/34baeebc6c4892c8b3bd7ca942361a68/9d50daf4a331c26b-ba/s100x200/4a0c8180f847ec5585f104b41b07c10ef8b3542e.gifv');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Left Menu */
+.left-icons {
+    background: transparent !important;
+}
+.left-icons,
+.icon-btn {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+}
+#left-icons {
+    flex-direction: row-reverse;
+}
+.text-icon {
+    display: none !important;
+}
+.left-icons .icon-btn:hover {
+    border-top: transparent !important;
+}
+#left-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 13% !important;
+    top: 7% !important;
+    z-index: 0 !important;
+    transform-origin: top left;
+}
+.right-interface {
+    z-index: 1 !important;
+}
+.text-icon,
+.left-icons .icon-btn svg {
+    display: show !important;
+}
+/* Left Icon Text Translation*/
+.icon-btn.text-1.HUB:after {
+    visibility: visible;
+    content: "R" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.STORE:after {
+    visibility: visible;
+    content: "E" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.SERVERS:after {
+    visibility: visible;
+    content: "V" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.QUESTS:after {
+    visibility: visible;
+    content: "E" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.FRIENDS:after {
+    visibility: visible;
+    content: "R" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.INVENTORY:after {
+    visibility: visible;
+    content: "I" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+.icon-btn.text-1.MAP:after {
+    visibility: visible;
+    content: "E" !important;
+    font-family: gamefont;
+    font-size: 35px;
+}
+
+/* Top Icons 
+.left-icons {
+    display: flex !important;
+    flex-direction: row !important;
+    position: absolute !important;
+    height: 0% !important;
+    margin: 18%;
+    margin-top: 7% !important;
+    border: none !important;
+} */
+
+.user-info {
+    padding-left: 3vw !important;
+}
+.progress {
+    background: var(--asscentColor) !important;
+    display: block !important;
+}
+.progress {
+    box-shadow: 0px 0px 20px 6px var(--asscentColor);
+}
+.left-interface[data-v-6ef47e92] {
+    position: absolute;
+    left: 42%;
+    top: 3%;
+    z-index: 9;
+    transform-origin: top left;
+}
+/* Crosshair */
+.crosshair-static {
+    display: flex !important;
+    visibility: visible !important;
+}
+/* Profile */
+div.card-cont.avatar-info,
+div.card-cont.user-info,
+.money {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.settings[data-v-e0ea0f78] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.achive-cont[data-v-7a3c1e94] {
+    content: url(kds) !important;
+    position: absolute !important;
+    right: 50% !important;
+    width: 12em;
+    height: 10em;
+}
+.card-cont[data-v-1cbd79ff] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.card-cont[data-v-1cbd79ff]:hover {
+    background: transparent !important;
+}
+/* Inv & Friends */
+#right-icons [data-v-ae524044] {
+    height: 3.2rem;
+}
+#right-icons > div.icon-btn.text-1 {
+    width: 139px;
+    font-size: 18px;
+    height: 65px;
+}
+#right-icons [data-v-1cbd79ff] {
+    width: 139px;
+    font-size: 18px;
+    height: 65px;
+}
+#right-icons [data-v-b8de1e14] {
+    display: none;
+}
+.right-icons .gun-img {
+    display: show;
+}
+.right-icons .icon-btn {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+/* Server & Play */
+.select-mod,
+.select-region {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.select-regions-cont[data-v-6ef47e92] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.container button {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-radius: 0 !important;
+}
+.container button {
+    background: transparent !important;
+    border-radius: 0 !important;
+    transform: none !important;
+}
+.container button .border-top,
+.container button .border-bottom {
+    display: none;
+}
+/* Join URL Button (For client only) */
+.join-using-link {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+.join-using-link:active {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+#clientJoinButton {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+#clientJoinButton:active {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+#play-btn {
+    background: rgba(68, 68, 68, 0) !important;
+    box-shadow: 4px 4px 10px #0000 !important;
+}
+#play-btn .border-top,
+#play-btn .border-bottom {
+    background: none;
+}
+.button[data-v-02c36fca] {
+    -webkit-text-stroke: 0px !important;
+}
+.button[data-v-02c36fca]:after {
+    border: none;
+    background: transparent !important;
+}
+.triangle[data-v-02c36fca] {
+    display: none !important;
+    background: transparent;
+}
+.progress[data-v-cd9878b6] {
+    background: linear-gradient(306deg, #727272, #727272)!important;
+}
+/*	Ad Removal */
+.ad-bottom,
+.ad-left {
+    display: none !important;
+    visibility: hidden !important;
+}
+.className {
+    display: none !important;
+}
+/* Mode Selection */
+.select-mods-cont,
+.select-mods-cont > hr {
+    background: transparent!important;
+    border: none !important;
+    border: 1px solid var(--asscentColor);
+    margin-right: 500px;
+}
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: var(--asscentColor);
+    border-color: var(--asscentColor);
+}
+.soc-group[data-v-f6928a74],
+.text-soc[data-v-26102dd2] {
+    display: none !important;
+}
+/* Checkbox and Private */
+.private-btn > span[data-v-47e1b746] {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
+    position: fixed;
+    left: 90px;
+    width: 40px;
+}
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: #727272;
+    border: none;
+}
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: var(--asscentColor);
+}
+.input .items[data-v-4f6bb432] {
+    background: transparent !important;
+    backdrop-filter: blur(15px);
+}
+/* KIll */
+.kill-bar-cont {
+    position: absolute;
+    bottom: 2rem;
+}
+/* chat */
+.desktop-game-interface #WMNn {
+    transform: scale(0);
+    transition-duration: 0.25s !important;
+}
+.desktop-game-interface #WMNn:focus {
+    transform: scale(1);
+}
+.clans,
+.hub-container,
+.mobile-fullscreen,
+.add-friends,
+.tab-bar,
+.top-items,
+.subject,
+.inventory .avatar,
+.inventory .bottom {
+    background: transparent !important;
+}
+.head-text,
+.reset-time,
+.info-awards,
+.news,
+.list-cont,
+.card-profile,
+.profile .k-d,
+.profile .statistics,
+.profile-cont .progress[data-v-d2be3bc6] {
+    background: rgba(255, 0, 0, 0) !important;
+    box-shadow: none !important;
+    border-bottom: none;
+}
+.tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+}
+.active-tab,
+.tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.tab:hover {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.limit {
+    border-left: none !important;
+}
+.top-bar,
+.home,
+.name-page {
+    display: none !important;
+}
+.container {
+    background: transparent !important;
+    backdrop-filter: blur(15px);
+    box-shadow: none !important;
+}
+.champions-list {
+    box-shadow: none !important;
+}
+.subjects,
+.gun {
+    background: transparent !important;
+    border: none !important;
+}
+.profile .you {
+    visibility: hidden;
+}
+.top[data-v-319b95e8] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.item[data-v-319b95e8] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.champions-list[data-v-3ade8f70] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.items .item[data-v-3ade8f70] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.card-head[data-v-5b2dc87c] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.list-container[data-v-3bcb580a] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.card-cont[data-v-040b7087] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.description[data-v-040b7087] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.all-scores[data-v-040b7087] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.champions-stat[data-v-040b7087] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.item-content[data-v-3bcb580a] {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.server[data-v-679cb6a8] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.player[data-v-68ad001e] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.right-container[data-v-68ad001e] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.messages[data-v-76a3fe0a] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.input[data-v-29d4a917] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.timer[data-v-1d4749de] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.bg[data-v-1d4749de] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.head[data-v-a204db68] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.list[data-v-a204db68] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.name[data-v-2bbf437a] {
+    padding-top: 20px;
+}
+.time-left[data-v-556f2c42] {
+    background: transparent !important;
+    border: none !important;
+}
+.rewards[data-v-556f2c42] {
+    background: transparent !important;
+    border: none !important;
+}
+.level-cont[data-v-197190ba] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.level-label[data-v-197190ba] {
+    color: #7e7e7e;
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.card[data-v-49c6809c] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.friend[data-v-197190ba] {
+    background: transparent !important;
+}
+.add[data-v-197190ba],
+.delete[data-v-197190ba] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.server[data-v-fed2b50a] {
+    background: linear-gradient(306deg, #7e7e7e, #7e7e7e)!important;
+}
+.info-key-cont,
+.list-weapons,
+.mWwn,
+.instruction {
+    display: none !important;
+}
+.hp {
+    margin-right: 20%;
+    border: #7e7e7e !important;
+}
+.hp-progress {
+    background-color: #7e7e7e !important;
+}
+.state {
+    position: fixed;
+    width: 300px;
+    top: 93%;
+    left: 37% !important;
+}
+/* HUD */
+.mini-map-cont .name,
+.desktop-game-interface .info-key-cont,
+.list-weapons,
+.hp-title,
+.mWwn,
+.instruction {
+    display: none !important;
+}
+.end-modal .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+/* Leaderboard */
+.leaders .clan-tag {
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+/* In Game Leaderboard */
+.tab-info {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    backdrop-filter: blur(5px);
+}
+.tab-info .head {
+    display: none;
+}
+.tab-info .player {
+    background: transparent !important;
+}
+.tab-info .primary {
+    color: #727272 !important;
+}
+.tab-info .nickname,
+.tab-info .player-right {
+    color: var(--asscentColor) !important;
+}
+.tab-info .list {
+    color: #7e7e7e;
+    margin: 0 !important;
+}
+.tab-info .list .list-value:nth-child(1),
+.tab-info .list .list-value:nth-child(2),
+.tab-info .list .list-value:nth-child(3) {
+    visibility: hidden;
+}
+.tab-info .list .list-value:nth-child(1):after {
+    visibility: visible;
+    content: "K";
+    margin-left: -29px;
+}
+.tab-info .list .list-value:nth-child(2):after {
+    visibility: visible;
+    content: "D";
+    margin-left: -28px;
+}
+.tab-info .list .list-value:nth-child(3):after {
+    visibility: visible;
+    content: "S";
+    margin-left: -5px;
+}
+.tab-info .player-right svg {
+    display: none;
+}
+.cont-hp {
+    background: transparent !important;
+}
+.hp {
+    margin-right: 20%;
+}
+.desktop-game-interface .state {
+    position: fixed;
+    width: 500px !important;
+    top: 93%;
+    left: 37% !important;
+}
+.cont-endurance {
+    margin-left: 1.5%;
+    background: transparent !important;
+    border: var(--asscentColor) !important;
+}
+.endurance-progress {
+    background: linear-gradient(to right, var(--asscentColor), var(--asscentColor)) !important;
+}
+.ammunition {
+    background: transparent !important;
+    display: inline-block;
+    position: fixed;
+    left: calc(52% + 188px);
+    top: calc(91%)
+}
+.bg[data-v-14e97ff8] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.player[data-v-3a61646a] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.timer[data-v-14e97ff8] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
+}
+.interface .nickname:after {
+    display: show;
+}
+.top-items[data-v-319b95e8] {
+    box-shadow: none !important;
+    border-bottom: none !important;
+    border: none !important;
+}
+.kill-bar-item[data-v-e06e1414] {
+    background: linear-gradient(306deg, #7e7e7e00, #7e7e7e00)!important;
+}
+/* Esc Interface*/
+.esc-interface {
+    backdrop-filter: blur(5px);
+}
+.esc-interface .head-right button,
+.esc-interface .head-right button .border-top,
+.esc-interface .head-right button .border-bottom {
+    background: transparent !important;
+    box-shadow: none;
+    border-radius: 0;
+}
+.esc-interface .head-right button:hover {
+    background: transparent !important;
+    border-bottom: 5px solid white;
+}
+.esc-interface .left-container .player {
+    background: transparent !important;
+}
+.esc-interface .right-container {
+    background: transparent !important;
+}
+.esc-interface .player .label {
+    color: var(--asscentColor);
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+.esc-interface .primary {
+    color: #7e7e7e !important;
+}
+.esc-interface .level {
+    color: #7e7e7e;
+}
+.continue {
+    background: #727272(68, 68, 68) !important;
+    box-shadow: none !important;
+}
+.continue:hover {
+    background: var(--asscentColor) !important;
+    box-shadow: none !important;
+}
+.continue .border-top,
+.continue .border-bottom {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+#dailyQuests {
+    position: fixed;
+    top: 30px;
+    border: none;
+    border-radius: 0;
+    z-index: 0 !important;
+    overflow: auto;
+}
+/* TTVS */
+/*  Player Position  */
+#team-section > div.player {
+    margin-right: 73rem;
+    margin-top: 32rem;
+}
+/* money emoji here*/
+.moneys {
+    position: absolute;
+    left: -40%;
+    top: 100px;
+}
+#left-interface {
+    position: absolute;
+    left: -1.9%;
+    top: -30px;
+}
+.tabs {
+    background: transparent !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-right: none !important;
+}
+.active-tab,
+.tab {
+    background: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+.limit {
+    border-left: none !important;
+}
+.top-bar,
+.home,
+.name-page {
+    display: none !important;
+}
+.container {
+    background: transparent !important;
+    backdrop-filter: blur(5px);
+    box-shadow: none !important;
+}
+.champions-list {
+    box-shadow: none !important;
+}
+.profile .you {
+    visibility: hidden;
+}
+.button.create-btn.rectangle {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.card.progress {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.items {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.settings {
+    background: transparent !important;
+    backdrop-filter: blur(0px);
+}
+.timer[data-v-07689ebb] {
+    border-radius: 20px !important;
+    color: #7e7e7e !important;
+    background-color: #727272 !important;
+}
+.state-cont {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.server {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.kill-death .kill {
+    background-color: #f000 !important;
+    color: #1aff00 !important;
+    border-radius: 20px !important;
+}
+.kill-death .death {
+    border-radius: 20px !important;
+    color: #0800ff00 !important;
+    background-color: #f000 !important;
+}
+.label.red {
+    border-radius: 20px !important;
+    color: #f00 !important;
+    background-color: #34343400 !important;
+}
+.label-team.red {
+    background: #000 !important;
+}
+.label.blue {
+    border-radius: 20px !important;
+    color: #30f !important;
+    background-color: #34343400 !important;
+}
+.label-team.blue {
+    background: #343434 !important;
+}
+.hp-progress {
+    color: #7e7e7e !important;
+}
+.cont-endurance {
+    margin-left: 1.5%;
+    background: transparent !important;
+    border: var(--asscentColor) !important;
+}
+[data-v-2bdf2bcd] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.container-card {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.achive-cont {
+    display: none;
+    visibility: hidden;
+}
+.hit {
+    content: url(https://64.media.tumblr.com/eecae192a392484778b0f34bf8555f76/ec55f74edba0d8f0-55/s75x75_c1/52b9037bf7ad85305ac6163e24840a01b868d2f3.webp);
+}
+[data-v-3894613f] {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.levels {
+    border-radius: 30px !important;
+    background-color: #34343400 !important;
+}
+.lvl-leader {
+    border-radius: 20px !important;
+    background-color: #343434 !important;
+}
+
+
+.right-interface .lobby-news.lobby-news {
+    background: rgba(0, 0, 0, 0);
+    content: url(https://64.media.tumblr.com/c1a7790378171470e16b0d87db5b62a0/cb17e07cea9029ae-67/s75x75_c1/07add6352c72a1e4d5234f1e110002e1ec93c54f.webp);
+    border: none;
+    margin-left: 0px;
+    margin-top: -120px;
+    width: 20px !important;
+    transition: 0.5s;
+    z-index: 2;
+	}
