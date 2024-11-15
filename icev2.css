@@ -752,3 +752,21 @@ div.top-medium {
     -o-background-size: cover;
     background-size: cover;
 }
+.right-interface .settings {
+    background: rgba(0, 0, 0, 0);
+    content: url(https://juicepoopooumgood.github.io/Juice/IMG_20241112_115400.jpg);
+    border: none;
+    margin-left: 0px;
+    margin-top: +120px;
+    width: 20px !important;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.right-interface .settings:hover {
+    background: none;
+    transform: scale(1.5);
+}
+.right-interface {
+    z-index: 999 !important;
+}
