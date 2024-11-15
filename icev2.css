@@ -735,3 +735,20 @@ div.top-medium {
 	left: +8000000000000007%;
 	top: +500000000000000000000000000000px;
 }
+/* Custom Backgorund */
+#app > div.interface.text-2 > div.background {
+    background-image: var(--bg-image) !important;
+    background-size: cover !important;
+}
+#app > div.interface.text-2 > div.background > div.pattern-bg,
+#app > div.interface.text-2 > div.background > div.bg-radial {
+    display: none !important
+}
+/*End Screen Background*/
+#app > .end-modal {
+    background: var(--bg-image) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
