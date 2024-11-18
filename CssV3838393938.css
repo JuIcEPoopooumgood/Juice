@@ -83,14 +83,14 @@
 }
 
 .interface .background{
-    background: url(https://i.postimg.cc/Sx5G2ffc/pattern.png) repeat !important;
+    background: url(https://raw.githubusercontent.com/JuIcEPoopooumgood/Juice/refs/heads/main/image.webp) repeat !important;
     height: 300%;
     background-position: 0px 0px;
     -webkit-animation: animate 10s linear infinite!important;
 }
 
 .end-modal {
-    background: url(https://i.postimg.cc/Sx5G2ffc/pattern.png) repeat !important;
+    background: url(https://raw.githubusercontent.com/JuIcEPoopooumgood/Juice/refs/heads/main/image.webp) repeat !important;
 }
 
 /* Loading Scene*/
