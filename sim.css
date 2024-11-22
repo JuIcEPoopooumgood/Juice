@@ -183,3 +183,11 @@
     background-image: var(--bg-image) !important;
     background-size: cover !important;
 }
+.left-icons {
+	border-radius: 900px !important;
+	background-color: #ffd90000 !important;
+}
+.icon-btn {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
