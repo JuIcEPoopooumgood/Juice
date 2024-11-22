@@ -1,6 +1,7 @@
    :root {
     --bg-image: url(https://juicepoopooumgood.github.io/Juice/906880.webp);
-   }
+}
+	   
 .left-icons {
     opacity: 0 !important;
     transition: all 0.5s ease-in-out;
@@ -129,6 +130,48 @@
     opacity: 1 !important;
     transition: all 0.5s ease-in-out;
 } 
+.nickname {
+    opacity: 0 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.nickname:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.nickname:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+.levels {
+    opacity: 0 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.levels:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.levels:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+.clan-tag {
+    opacity: 0 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.clan-tag:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.clan-tag:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
 
     /* Custom Backgorund */
     #app > div.interface.text-2 > div.background {
