@@ -1,6 +1,6 @@
    :root {
     --bg-image: url(https://juicepoopooumgood.github.io/Juice/906880.webp);
-	   
+   }
 .left-icons {
     opacity: 0 !important;
     transition: all 0.5s ease-in-out;
@@ -129,7 +129,7 @@
     opacity: 1 !important;
     transition: all 0.5s ease-in-out;
 } 
-}
+
     /* Custom Backgorund */
     #app > div.interface.text-2 > div.background {
         background-image: var(--bg-image) !important;
