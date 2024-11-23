@@ -1,5 +1,6 @@
-    :root {
-    --bg-image: url(https://cdn.discordapp.com/attachments/995150554441461791/1167949209064968252/906880.jpg?ex=654ffc76&is=653d8776&hm=b073949684b04e5737869eec6f4ce6ce2744e98a60680441f67384cd07af81f6&);
+/* Made by winky Fixed by TTV :D */
+:root {
+    --bg-image: url(https://64.media.tumblr.com/0901013c2121ffe2b48a755080bf4523/bbfb008de4356990-1b/s540x810/f4e9091d57e3d36d8d283a4190d197e02d105362.gifv);
     --asscentColor: #2847b9;
     --sec: hsl(244, 86%, 70%);
     --score-background: #00000052;
@@ -447,7 +448,7 @@
     /* Removes Logo  */
     .interface .logo {
         width: auto;
-        content: url("https://cdn.discordapp.com/attachments/995150554441461791/1165881938305884221/image_2023-10-22_2209124422.png?ex=6548772b&is=6536022b&hm=ea8dabc9f46237b6fd02f1a6fb919d428981bf1a48c9d2df79fb9dc0e781f763&") !important;
+        content: url("https://www.speedrun.com/images/1st.png") !important;
         z-index: 9;
     }
     /* Text Color */
