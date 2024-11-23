@@ -1026,3 +1026,26 @@
         box-shadow: none !important;
     }
 /* fixed/added stuffs */
+.invite-btn {
+    opacity: 0 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.invite-btn:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.invite-btn:hover {
+    opacity: 1 !important;
+    transition: all 0.5s ease-in-out;
+}
+.invite-btn {
+	border-radius: 200px !important;
+	background-color: #ffd90061 !important;
+}
+/* for you perp */
+.menu {
+	border-radius: 100px !important;
+	background-color: #cf3bcf !important;
+}
