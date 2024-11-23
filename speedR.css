@@ -437,7 +437,7 @@
     /*Font*/
     @font-face {
         font-family: gamefont;
-        src: url("https://cdn.discordapp.com/icons/1129556778569437315/b97096e01d8a277d531c5aac0365f1e9.webp?size=1024&width=0&height=256") !important;
+        src: url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap") !important;
     }
     /* Custom Backgorund */
     #app > div.interface.text-2 > div.background {
@@ -448,7 +448,7 @@
     /* Removes Logo  */
     .interface .logo {
         width: auto;
-        content: url("https://www.speedrun.com/images/1st.png") !important;
+        content: url("https://juicepoopooumgood.github.io/Juice/image_2023-10-22_2209124422.webp") !important;
         z-index: 9;
     }
     /* Text Color */
