@@ -168,6 +168,14 @@ background-size: cover !important;
 	border-radius: 20px !important;
 	background-color: #0004ff30 !important;
 }
+.join {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+
+.spectate-btn {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
 .create-btn {
 	border-radius: 20px !important;
 	background-color: #0004ff30 !important;
