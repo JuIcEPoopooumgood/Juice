@@ -1,5 +1,6 @@
    :root {
     --bg-image: url(https://wallpapers.com/images/hd/black-dirtbike-s3otyjdzjnxgdnhs.jpg);
+	--end-image: url(https://wallpapers.com/images/hd/motocross-3840-x-2160-background-vatxn94mj6dqbt5y.jpg);
 }
 	   
 .left-icons {
@@ -150,11 +151,7 @@
 background-image: var(--bg-image) !important;
 background-size: cover !important;
 }
-/* Custom Backgorund */
-#app > div.interface.text-2 > div.background {
-    background-image: var(--bg-image) !important;
-    background-size: cover !important;
-}
+
 .left-icons {
 	border-radius: 900px !important;
 	background-color: #ffd90000 !important;
@@ -162,4 +159,36 @@ background-size: cover !important;
 .icon-btn {
 	border-radius: 20px !important;
 	background-color: #0004ff30 !important;
+}
+.card-cont {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+.join-btn {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+.create-btn {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+.select-mod {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+.play-btn {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+.border {
+	border-radius: 20px !important;
+	background-color: #0004ff30 !important;
+}
+/*End Screen Background*/
+#app > .end-modal {
+    background: var(--end-image) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
