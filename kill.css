@@ -1,0 +1,137 @@
+
+.cont-endurance {
+    margin-left: 1.5%;
+    background: transparent !important;
+    border: var(--asscentColor) !important;
+}
+[data-v-2bdf2bcd] {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.container-card {
+    border: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.achive-cont {
+    display: none;
+    visibility: hidden;
+}
+
+.loading-scene>.background-cont {
+	filter: grayscale(1) blur(5px);
+	z-index: 0;
+	transform: scale(1.1);
+}
+
+.loading-scene>.content {
+	display: none;
+}
+
+.loading-scene>.progress {
+	background: var(--background-clr-secondary-6);
+}
+
+.loading-scene>.loading {
+	display: none;
+}
+
+.loading-scene>.logo {
+	position: fixed !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	bottom: 5%;
+	left: 15%;
+
+}
+
+.loading-scene>.logo:before {
+	content: "";
+	position: absolute;
+	background: var(--branding) 100% / 100%;
+	width: 100px;
+	height: 100px;
+	left: -125px;
+}
+
+.loading-scene>.logo>img {
+	display: none;
+}
+
+.loading-scene>.logo>.name-map {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 0.5rem;
+	font-size: 3.5rem;
+}
+
+.loading-scene>.logo>.name-map:before {
+	content: "OPERATION";
+	font-size: 1rem;
+	color: hsl(var(--logo)));
+}
+
+
+.loading-scene>.progress:last-child {
+	display: none !important;
+}
+
+.game-interface>.death-cont {
+	bottom: 0;
+	top: unset !important;
+	height: auto !important;
+}
+
+
+
+
+
+.ach-cont {
+	top: 0 !important;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ach-cont>.animate-cont {
+	transform: none !important;
+	width: auto;
+	height: auto;
+}
+
+.animate-cont>svg {
+	display: none;
+}
+
+.animate-cont>.text {
+	font-size: 1rem !important;
+	font-weight: 700 !important;
+	margin: unset !important;
+	margin-left: 15rem !important;
+}
+
+.animate-cont>.text>span>span {
+	color: white !important;
+}
+
+#app>.end-modal {
+	background: var(--img-wallpaper-filtered) 100% / 100%;
+	background-size: cover;
+}
+
+#app>.end-modal:before {
+	background: var(--clr-gradient-100);
+	content: "";
+	inset: 0;
+	opacity: 0.7;
+	position: absolute;
+	z-index: -1;
+}
+
+.end-modal>.bottom {
+	visibility: hidden;
+}
