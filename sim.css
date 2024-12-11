@@ -1,4 +1,14 @@
-   :root {
+/* ==UserStyle==
+@name           Sim.css made by #985CBJ
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         #985CBJ
+==/UserStyle== */
+@-moz-document domain("example.com") {}
+/* made by PoopooumgoodYT*/
+
+:root {
 	--bg-image: url(https://juicepoopooumgood.github.io/Juice/9a150f4edf3aaa3b5ec417fc970c5372.gif);
 }
 	   
