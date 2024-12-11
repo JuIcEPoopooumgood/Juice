@@ -158,26 +158,17 @@ background-size: cover !important;
 
 .left-icons {
 	border-radius: 900px !important;
-	background-color: #ffd90000 !important;
+	background-color: #741b74 !important;
 }
 .icon-btn {
 	border-radius: 20px !important;
-	background-color: #0004ff30 !important;
+	background-color: #8c128c !important;
 }
 
 
 #app>.end-modal {
-	background: var(--img-wallpaper-filtered) 100% / 100%;
+	background: var(--bg-image) 100% / 100%;
 	background-size: cover;
-}
-
-#app>.end-modal:before {
-	background: var(--clr-gradient-100);
-	content: "";
-	inset: 0;
-	opacity: 0.7;
-	position: absolute;
-	z-index: -1;
 }
 
 .end-modal>.bottom {
